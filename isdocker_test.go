@@ -6,7 +6,7 @@ import (
 
 func TestIsDocker(t *testing.T) {
 	isdocker := IsDocker()
-	if isdocker != false {
-		t.Errorf("In non-docker mode, but shows docker mode !!!")
+	if isdocker == false {
+		t.Errorf("process is in docker mode, but shows non-docker mode !!!")
 	}
 }
