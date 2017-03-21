@@ -2,4 +2,5 @@ language: go
 
 script:
         - go get github.com/argonlaser/go-isdocker/...
-        - cd $GOPATH/src/github.com/argonlaser/go-isdocker && go test
+        - cd $GOPATH/src/github.com/argonlaser/go-isdocker
+        - go test -run=TestIsDockerProcess
