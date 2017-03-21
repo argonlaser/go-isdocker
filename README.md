@@ -20,7 +20,7 @@ Refer godoc [go-isdocker](https://godoc.org/github.com/argonlaser/go-isdocker) f
 ```
 import "github.com/argonlaser/go-isdocker"
 
-if IsDocker() == true {
+if isDocker.IsDocker() == true {
   // this process is running on a docker
 
 } else {
@@ -54,10 +54,10 @@ Please feel to raise an [issue](https://github.com/argonlaser/go-isdocker/issues
 $ go get github.com/argonlaser/go-isdocker
 ```
 
-2. Change to the Hugo source directory:
+2. Change to the ```go-isdocker``` source directory:
 
 ```
-$ cd $GOPATH/src/github.com/argonlaser.go-isdocker
+$ cd $GOPATH/src/github.com/argonlaser/go-isdocker
 ```
 
 3. Create a new branch for your changes (the branch name is arbitrary):
@@ -75,7 +75,7 @@ $ git commit -a -v
 5. Fork this project in Github and add your fork as a new remote (the remote name, "fork" in this example, is arbitrary):
 
 ```
-$ git remote add fork git://github.com/USERNAME/go-isdcoker.git
+$ git remote add fork git://github.com/USERNAME/go-isdocker.git
 ```
 
 6. Run codestyle checks and tests for ```go-isdocker``` with Your Changes. Add more tests if needed.
@@ -96,7 +96,7 @@ $ git push --set-upstream fork mybranch
 
 * Authored and maintained by **Venkata krishna** and the list of [contributors](https://github.com/argonlaser/go-isdocker/contributors).
 
-Contact me in | [Twitter](https://twitter.com/argon_laser) | [Gmail](vkvenkat94@gmail.com) |
+Contact me via | [Twitter](https://twitter.com/argon_laser) | [Gmail](vkvenkat94@gmail.com) |
 
 ## License
 
@@ -104,4 +104,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-* [Hugo-Readme](https://github.com/spf13/hugo/blob/master/CONTRIBUTING.md )
+* [Hugo](https://github.com/spf13/hugo/blob/master/CONTRIBUTING.md )
