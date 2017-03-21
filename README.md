@@ -1,5 +1,6 @@
 [![GoDoc](https://godoc.org/github.com/argonlaser/go-isdocker?status.svg)](http://godoc.org/github.com/argonlaser/go-isdocker)
-
+[![Build Status](https://semaphoreci.com/api/v1/argonlaser/go-isdocker/branches/master/badge.svg)](https://semaphoreci.com/argonlaser/go-isdocker)
+[![Build Status](https://travis-ci.org/argonlaser/go-isdocker.svg?branch=master)](https://travis-ci.org/argonlaser/go-isdocker)
 # go-isdocker
 
   Check if the process is running inside a docker.
