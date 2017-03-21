@@ -21,7 +21,7 @@ Refer godoc [go-isdocker](https://godoc.org/github.com/argonlaser/go-isdocker) f
 ```
 import "github.com/argonlaser/go-isdocker"
 
-if isDocker.IsDocker() == true {
+if isdocker.IsDocker() == true {
   // this process is running on a docker
 
 } else {
