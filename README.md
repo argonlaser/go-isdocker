@@ -97,7 +97,7 @@ $ git push --set-upstream fork mybranch
 
 * Authored and maintained by **Venkata krishna** and the list of [contributors](https://github.com/argonlaser/go-isdocker/contributors).
 
-Contact me via | [Twitter](https://twitter.com/argon_laser) | [Gmail](vkvenkat94@gmail.com) |
+* Contact me via [Twitter](https://twitter.com/argon_laser)
 
 ## License
 
