@@ -1,3 +1,5 @@
+[![GoDoc](https://godoc.org/github.com/argonlaser/go-isdocker?status.svg)](http://godoc.org/github.com/argonlaser/go-isdocker)
+
 # go-isdocker
 
   Check if the process is running inside a docker.
